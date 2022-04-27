@@ -1,0 +1,247 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+.nav-list-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    top: 0px;
+    height: 90px;
+    position: fixed;
+    background-color: rgb(28, 113, 28);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 2em;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.nav-item{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.fa-solid, .fa-dumbbell {
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+ul, a{
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+}
+
+button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(130, 95, 130);
+    color: rgb(3, 41, 3)
+}
+
+ul a:hover{
+    color: purple;
+}
+
+.main-landing {
+    margin-top: 90px;
+    background-color: transparent;
+}
+
+.gym-img{
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+
+.welcome-text{
+    display: flex;
+    font-size: 10em;
+    color: purple;
+    width: 40%;
+    -webkit-text-stroke: 2px green;
+}
+
+.get-started {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-started-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-started-text h1{
+    color: rgb(28, 113, 28);
+    font-size: 6em;
+    margin: 5px;
+    -webkit-text-stroke: 1px purple;
+}
+
+.get-started-text h5 {
+    margin: 5px;
+    color: rgb(86, 164, 86);
+    font-size: 2em;
+}
+
+.learn-more {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+}
+
+.bottom {
+    background-color: rgb(28, 113, 28);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.foot-icon {
+    font-size: 6em;
+}
+
+.foot-item a{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.foot-head {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.foot-info {
+    height: 179px;
+}
+
+.foot-social {
+    height: 179px;
+}
+
+.link-list {
+    height: 122px;
+}
+
+.link-list-ul {
+    list-style-type: none;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+i {
+    color: purple;
+}
+
+.social-list {
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-list {
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tiny {
+    margin: 0px;
+}
