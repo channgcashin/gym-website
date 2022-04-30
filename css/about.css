@@ -26,6 +26,7 @@ nav{
     height: 90px;
     position: fixed;
     background-color: rgb(28, 113, 28);
+    z-index: 1;
 }
 
 .nav-container{
@@ -108,68 +109,89 @@ ul a:hover{
     color: purple;
 }
 
-.main-landing {
+.our-story {
     margin-top: 90px;
-    background-color: transparent;
+    background-color: rgb(28, 113, 28);
+    color: white;
+    border-bottom: 2px solid purple;
 }
 
-.gym-img{
-    z-index: -1;
-    width: 100%;
-    position: fixed;
-}
-
-.welcome {
+.our-story-head {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    width: 100%;
-    height: 900px;
-}
-
-.welcome-text{
-    display: flex;
-    font-size: 10em;
-    color: purple;
-    width: 40%;
-    -webkit-text-stroke: 2px green;
-}
-
-.get-started {
-    background-color: white;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-.get-started-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.get-started-text h1{
-    color: rgb(28, 113, 28);
-    font-size: 6em;
-    margin: 5px;
+.our-story-head-text {
+    font-size: 3.5em;
+    font-weight: 600;
     -webkit-text-stroke: 1px purple;
 }
 
-.get-started-text h5 {
-    margin: 5px;
-    color: rgb(86, 164, 86);
-    font-size: 2em;
+.our-story-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.learn-more {
-    width: 100%;
-    margin: 10px;
+.our-story-text {
+    margin-top: 0px;
+    margin-left: 60px;
+    font-size: 2.5em;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 0px;
+}
+
+.our-story-pic {
+    margin: 40px;
+    margin-top: 0px;
+}
+
+.our-story-img {
+    border: 2px solid purple;
+}
+
+.map {
+    color: purple;
+}
+
+.map-head {
     display: flex;
     justify-content: center;
+}
+
+.map-head-text {
+    font-size: 3.5em;
+    font-weight: 600;
+    -webkit-text-stroke: 1px green;
+}
+
+.map-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.map-pic {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.map-img {
+    height: 600px;
+    border: 2px solid purple;
+}
+
+.map-text {
+    margin-top: 0px;
+    font-size: 3em;
+    width: 30%;
+    display: flex;
+    align-items: center;
 }
 
 footer {
@@ -225,15 +247,15 @@ footer {
     justify-content: space-around;
 }
 
-i {
-    color: purple;
-}
-
 .social-list {
     height: 122px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+i {
+    color: purple;
 }
 
 .contact-list {
