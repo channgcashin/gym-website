@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    background-image: url("../images/sign-up-bg.jpeg");
+}
+
+.thank-you-container {
+    width: 600px;
+    background: rgb(28, 113, 28);
+    color: white;
+    margin: 10% auto;
+    padding: 3%;
+    text-align: center;
+    border: 2px solid purple;
+}
+
+.thank-you-text {
+    font-size: 5em;
+    -webkit-text-stroke: 2px purple;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(130, 95, 130);
+    color: rgb(3, 41, 3);
+    cursor: pointer;
+}
